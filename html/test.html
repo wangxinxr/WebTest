@@ -5,6 +5,18 @@
 	<title>Document</title>
 </head>
 <body>
-	<p>hello welcome</p>>
-</body>
+	<input type="text" id="Calculator">
+	<script type="text/javascript">
+		function clickFounticon () {
+			var x
+			x=document.getElementById("Calculator").value;
+			if(x==""||isNaN(x)){
+				alert("No Number");
+			}
+			else{
+				window.location.href="test2.html";
+			}
+		}
+	</script>
+	<button type="button" onclick="clickFounticon()">点击此处</button>
 </html>
